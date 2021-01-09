@@ -104,7 +104,7 @@ class Sub2Conf(object):
                 "users": [
                   {
                     "id": use_conf["id"],
-                    "alterId": use_conf["aid"]
+                    "alterId": int(use_conf["aid"])
                   }
                 ] 
             })
